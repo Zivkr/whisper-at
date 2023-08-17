@@ -50,6 +50,7 @@ def transcribe(
     prepend_punctuations: str = "\"'“¿([{-",
     append_punctuations: str = "\"'.。,，!！?？:：”)]}、",
     at_time_res: float = 10,
+    mlp_ln_output: int = 527,
     **decode_options,
 ):
     """
@@ -206,7 +207,7 @@ def transcribe(
     )  # time per output token: 0.02 (seconds)
     all_tokens = []
     all_segments = []
-    all_audio_tags = torch.zeros([math.ceil(content_frames/at_decision_window), 384])  # tiny mlp outputs 384,old is 527
+    all_audio_tags = torch.zeros([math.ceil(content_frames/at_decision_window), mlp_ln_output])  # old is 527
     prompt_reset_since = 0
 
     if initial_prompt is not None:
