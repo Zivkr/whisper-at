@@ -10,7 +10,7 @@
 
 ## Introduction
 
-[**[Paper]**](https://arxiv.org/pdf/2307.03183.pdf)
+[**[Paper]**](https://www.isca-speech.org/archive/pdfs/interspeech_2023/gong23d_interspeech.pdf)
 
 [**[HuggingFace Space]**](https://huggingface.co/spaces/yuangongfdu/whisper-at) (Try Whisper-AT without Coding!)
 
@@ -18,7 +18,7 @@
 
 [**[Local Notebook Demo]**(for user without Colab access)](https://github.com/YuanGongND/whisper-at/blob/main/sample/whisper_at_demo.ipynb)
 
-<p align="center"><img src="https://github.com/YuanGongND/whisper-at/blob/main/tltr.png?raw=true" alt="Illustration of Whisper-AT." width="800"/></p>
+<p align="center"><img src="https://github.com/YuanGongND/whisper-at/blob/main/poster.png?raw=true" alt="Illustration of Whisper-AT." width="800"/></p>
 
 <div align="center">
   (Please turn on audio to listen to the sounds)
